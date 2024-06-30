@@ -1,6 +1,8 @@
 name: Workflow Demo
 
-on: [push]
+on: 
+ workfloworkflow_dispatch:
+   
 
 jobs:
   build:
